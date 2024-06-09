@@ -3,9 +3,6 @@ import Navbar from './components/Navbar'
 import Main from './components/Main'
 import React from "react"
 
-
-
-
 function App() {
   const [isDark, setIsDark] = React.useState(true)
   function toggleDarkMode(){
